@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multpile_Inheritance", "Mul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GENERICS", "GENERICS\GENERICS.csproj", "{4EFB58CC-8941-4822-AC31-B4EBB02FA73E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Class", "Generic_Class\Generic_Class.csproj", "{8DE01C9F-E202-4B07-80F1-711939E12438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4EFB58CC-8941-4822-AC31-B4EBB02FA73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EFB58CC-8941-4822-AC31-B4EBB02FA73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EFB58CC-8941-4822-AC31-B4EBB02FA73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE01C9F-E202-4B07-80F1-711939E12438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE01C9F-E202-4B07-80F1-711939E12438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE01C9F-E202-4B07-80F1-711939E12438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE01C9F-E202-4B07-80F1-711939E12438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
