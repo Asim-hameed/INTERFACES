@@ -17,7 +17,27 @@ namespace HashTableDemo
             ht.Add("Designation", "PSE");
             ht.Add("isMarried", false);
 
-            Console.WriteLine(ht["Id"]);
+            Console.WriteLine(ht.ContainsValue("Asim"));
+
+            //Console.WriteLine("Salary".GetHashCode());
+
+            Console.WriteLine(ht.Count);
+            //Console.WriteLine(ht["Id"]);
+
+            //foreach (object key in ht.Keys)
+            //{
+            //    Console.WriteLine(key + " : " + ht[key]);
+            //}
+            //Console.WriteLine("\n");
+
+            //ht.Remove("Id");
+            //ht.Clear();
+            //foreach (object key in ht.Keys)
+            //{
+            //    Console.WriteLine(key + " : " + ht[key]);
+            //}
+
+
         }
     }
 }
