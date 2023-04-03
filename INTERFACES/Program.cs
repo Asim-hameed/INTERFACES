@@ -22,11 +22,11 @@
     }
     //..............
 
-    abstract class myClass
+    abstract class myClass: Example, i1,i2
     {
         public abstract void show1();
     }
-    class Example : myClass, i1
+    class Example : myClass
     {
         public void show()
         {
