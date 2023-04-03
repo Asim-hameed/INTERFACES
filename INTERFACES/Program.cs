@@ -16,22 +16,50 @@
     {
         void show();
     }
-    interface i2 
+    interface i2 : i1
     {
         void show();
     }
-    class MyClass : i1, i2
+    //..............
+
+    abstract class myClass
     {
-        void i1.show()
+        public abstract void show1();
+    }
+    class Example : myClass, i1
+    {
+        public void show()
         {
-            Console.WriteLine("This is method of Interface 1") ;
+            Console.WriteLine("This is method of Inteface");
         }
 
-        void i2.show()
+        public override void show1()
         {
-            Console.WriteLine("This is method of Interface 2");
+            Console.WriteLine("This is method of abstract class");
+
         }
     }
+
+    ///.............
+    //interface i2 
+    //{
+    //    void show();
+    //}
+
+    //...............
+    //class MyClass : i1, i2
+    //{
+    //    void i1.show()
+    //    {
+    //        Console.WriteLine("This is method of Interface 1") ;
+    //    }
+
+    //    void i2.show()
+    //    {
+    //        Console.WriteLine("This is method of Interface 2");
+    //    }
+    //}
+    //.................
     //class partTimeEmployee : IEmployee
     //{
     //    public void show()
@@ -75,15 +103,21 @@
 
             //..............
 
-            MyClass myClass = new MyClass();
-            ((i1)myClass).show();
-            ((i2)myClass).show();
+            //MyClass myClass = new MyClass();
+            //((i1)myClass).show();
+            //((i2)myClass).show();
 
-            i1 my1 = new MyClass();
-            my1 .show();
+            //i1 my1 = new MyClass();
+            //my1 .show();
 
-            i2 my2 = new MyClass();
-            my2 .show();
+            //i2 my2 = new MyClass();
+            //my2 .show();
+
+            //...............
+
+            Example example = new Example();
+            example.show();
+            example.show1();
         }
     }
 }
