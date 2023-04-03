@@ -10,20 +10,53 @@
 
         void show();
     }
-    class partTimeEmployee : IEmployee
+    interface i1
+    {
+        void show1();
+    }
+    interface i2 : i1, IEmployee
+    {
+        void show2();
+    }
+    //class partTimeEmployee : IEmployee
+    //{
+    //    public void show()
+    //    {
+    //        Console.WriteLine("This is a method of Interface IEmployee");
+    //    }
+    //}
+
+    class Program : i2
     {
         public void show()
         {
-            Console.WriteLine("This is a method of Interface IEmployee");
+            Console.WriteLine("This is a method of interface IEmployee");
         }
-    }
-    class Program
-    {
+        public void show1()
+        {
+            Console.WriteLine("This is a method of interface i1");
+        }
+        public void show2() 
+        {
+            Console.WriteLine("This is a method of interface i2");
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            partTimeEmployee partTimeEmployee = new partTimeEmployee();
-            partTimeEmployee.show();
+            //partTimeEmployee partTimeEmployee = new partTimeEmployee();
+            //partTimeEmployee.show();
+
+            //..............
+
+
+
+
+            //........
+            i2 myInterface = new Program();
+
+            myInterface.show();
+            myInterface.show1();
+            myInterface.show2();
 
         }
     }
