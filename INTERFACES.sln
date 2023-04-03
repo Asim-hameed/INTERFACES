@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INTERFACES", "INTERFACES\INTERFACES.csproj", "{BA413C75-E136-402E-BD6A-1CF326067406}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multpile_Inheritance", "Multpile_Inheritance\Multpile_Inheritance.csproj", "{BD3406D1-8463-459C-ADA2-B3974B19D293}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BA413C75-E136-402E-BD6A-1CF326067406}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA413C75-E136-402E-BD6A-1CF326067406}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA413C75-E136-402E-BD6A-1CF326067406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3406D1-8463-459C-ADA2-B3974B19D293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3406D1-8463-459C-ADA2-B3974B19D293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3406D1-8463-459C-ADA2-B3974B19D293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3406D1-8463-459C-ADA2-B3974B19D293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
