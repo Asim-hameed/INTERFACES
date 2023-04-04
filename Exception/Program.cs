@@ -30,26 +30,40 @@
 
             //...........
 
-            int[] arr=new int[3];
-            
+            //int[] arr=new int[3];
+
+
+            //try
+            //{
+            //    arr[0] = 1;
+            //    arr[1] = 2;
+            //    arr[2] = 3;
+            //    arr[3] = 4;
+            //}
+            //catch (IndexOutOfRangeException ex)
+            //{
+            //    Console.WriteLine("Array's Range is exceeded");
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            //foreach(int i in arr)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //.................
 
             try
             {
-                arr[0] = 1;
-                arr[1] = 2;
-                arr[2] = 3;
-                arr[3] = 4;
+                string? name = null;
+                Console.WriteLine(name.Length);
             }
-            catch (IndexOutOfRangeException ex)
+            catch (NullReferenceException ex)
             {
-                Console.WriteLine("Array's Range is exceeded");
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("String is Null.....");
+                //Console.WriteLine(ex.Message);
             }
 
-            foreach(int i in arr)
-            {
-                Console.WriteLine(i);
-            }
         }
     }
 }
