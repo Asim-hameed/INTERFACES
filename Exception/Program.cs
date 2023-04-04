@@ -84,24 +84,45 @@
             //.....................
 
 
+            //try
+            //{
+            //    //string a = null;
+            //    //Console.WriteLine(a.Length);
+
+            //    int[] arr=new int[3];
+            //    arr[0]=1;
+            //    arr[1]=2;
+            //    arr[2]=3;
+            //    arr[3]=4;
+            //}
+            //catch(Exception ex) 
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+
+            //.....................
+
+
             try
             {
-                //string a = null;
-                //Console.WriteLine(a.Length);
-
-                int[] arr=new int[3];
-                arr[0]=1;
-                arr[1]=2;
-                arr[2]=3;
-                arr[3]=4;
+                int a = 10;
+                int b = 0;
+                int c = a / b;
             }
-            catch(Exception ex) 
+
+            catch(DivideByZeroException ex)
             {
                 Console.WriteLine(ex.Message);
             }
-
-
-
+            catch (NullReferenceException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
 
 
