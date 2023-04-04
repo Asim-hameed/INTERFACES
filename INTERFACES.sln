@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception", "Exception\Exce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialClassDemo", "PartialClassDemo\PartialClassDemo.csproj", "{4EB37E5D-33AF-4478-B5A8-4ED18FF69687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesPartialClass", "RulesPartialClass\RulesPartialClass.csproj", "{2793125F-705E-480C-9C2E-F9A3BC603C08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{4EB37E5D-33AF-4478-B5A8-4ED18FF69687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EB37E5D-33AF-4478-B5A8-4ED18FF69687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EB37E5D-33AF-4478-B5A8-4ED18FF69687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2793125F-705E-480C-9C2E-F9A3BC603C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2793125F-705E-480C-9C2E-F9A3BC603C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2793125F-705E-480C-9C2E-F9A3BC603C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2793125F-705E-480C-9C2E-F9A3BC603C08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
