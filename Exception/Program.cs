@@ -104,30 +104,75 @@
             //.....................
 
 
+            //try
+            //{
+            //    int a = 10;
+            //    int b = 0;
+            //    int c = a / b;
+            //}
+
+            //catch(DivideByZeroException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            //catch (NullReferenceException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //} 
+            //finally
+            //{
+            //    Console.WriteLine("Finally block executed");
+            //}
+
+
+
+            //...............
+
+            //Console.WriteLine("Enter your age: ");
+            //int age=int.Parse(Console.ReadLine());
+            //try
+            //{
+            //    if (age >= 18)
+            //    {
+            //        Console.WriteLine("You are eligible for voting");
+            //    }
+            //    else
+            //    {
+            //        throw new Exception("You are not eligible for voting");
+            //    }
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+
+
+
+            int account_balance = 5000;
+            int withdrawl_amount = 4000;
+            //Console.WriteLine("Enter Amount: ");
             try
             {
-                int a = 10;
-                int b = 0;
-                int c = a / b;
-            }
+                if (withdrawl_amount <= account_balance)
+                {
+                    account_balance -= withdrawl_amount;
+                    Console.WriteLine("Transaction successfull");
+                    Console.WriteLine("Remaining amount is "+ account_balance);
 
-            catch(DivideByZeroException ex)
-            {
-                Console.WriteLine(ex.Message);
+                }
+                else
+                {
+                    throw new Exception("Insufficient Balance");
+                }
             }
-            catch (NullReferenceException ex)
+            catch (Exception e)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(e.Message);
             }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            } 
-            finally
-            {
-                Console.WriteLine("Finally block executed");
-            }
-
 
 
 
