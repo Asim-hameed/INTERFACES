@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesPartialClass", "RulesP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsDemo", "ParamsDemo\ParamsDemo.csproj", "{0B08AAF9-81BD-4114-B2A1-66695987FEDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAndStringBuilder", "StringAndStringBuilder\StringAndStringBuilder.csproj", "{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{0B08AAF9-81BD-4114-B2A1-66695987FEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B08AAF9-81BD-4114-B2A1-66695987FEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B08AAF9-81BD-4114-B2A1-66695987FEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
