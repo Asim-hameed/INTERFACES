@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsDemo", "ParamsDemo\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAndStringBuilder", "StringAndStringBuilder\StringAndStringBuilder.csproj", "{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading_Demo", "MultiThreading_Demo\MultiThreading_Demo.csproj", "{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
