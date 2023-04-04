@@ -1,5 +1,6 @@
 ﻿namespace Dictionary
 {
+    // Keys cannot be null and replicated
     internal class Program
     {
         static void Main(string[] args)
@@ -9,7 +10,11 @@
             myDict.Add("amazing", "causing great surprise");
             myDict.Add("qurantine", "place of isolation");
 
-            foreach(KeyValuePair<string,string> kvp in myDict)
+            string value;
+            myDict.TryGetValue("active",out value);
+            Console.WriteLine(value);
+
+            foreach (KeyValuePair<string,string> kvp in myDict)
             {
                 Console.WriteLine("Key is "+kvp.Key+" Value is "+kvp.Value);
             }
