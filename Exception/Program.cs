@@ -1,4 +1,4 @@
-﻿namespace Exception
+﻿namespace Exceptionn
 {
     internal class Program
     {
@@ -67,19 +67,42 @@
             //......................
 
 
-            Console.WriteLine("Enter a number");
-            string number = Console.ReadLine();
+            //Console.WriteLine("Enter a number");
+            //string number = Console.ReadLine();
+            //try
+            //{
+            //    int num = int.Parse(number);
+            //    Console.WriteLine("Number is " + number);
+            //}
+            //catch(FormatException ex) 
+            //{
+            //    Console.WriteLine("String format is invalid");
+            //    Console.WriteLine(ex.Message);
+            //}
+
+
+            //.....................
+
+
             try
             {
-                int num = int.Parse(number);
-                Console.WriteLine("Number is " + number);
+                //string a = null;
+                //Console.WriteLine(a.Length);
+
+                int[] arr=new int[3];
+                arr[0]=1;
+                arr[1]=2;
+                arr[2]=3;
+                arr[3]=4;
             }
-            catch(FormatException ex) 
+            catch(Exception ex) 
             {
-                Console.WriteLine("String format is invalid");
                 Console.WriteLine(ex.Message);
             }
-            
+
+
+
+
 
 
 
