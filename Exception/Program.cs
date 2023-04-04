@@ -53,16 +53,36 @@
 
             //.................
 
+            //try
+            //{
+            //    string? name = null;
+            //    Console.WriteLine(name.Length);
+            //}
+            //catch (NullReferenceException ex)
+            //{
+            //    Console.WriteLine("String is Null.....");
+            //    //Console.WriteLine(ex.Message);
+            //}
+
+            //......................
+
+
+            Console.WriteLine("Enter a number");
+            string number = Console.ReadLine();
             try
             {
-                string? name = null;
-                Console.WriteLine(name.Length);
+                int num = int.Parse(number);
+                Console.WriteLine("Number is " + number);
             }
-            catch (NullReferenceException ex)
+            catch(FormatException ex) 
             {
-                Console.WriteLine("String is Null.....");
-                //Console.WriteLine(ex.Message);
+                Console.WriteLine("String format is invalid");
+                Console.WriteLine(ex.Message);
             }
+            
+
+
+
 
         }
     }
