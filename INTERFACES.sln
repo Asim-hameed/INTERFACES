@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsVsAs", "IsVsAs\IsVsAs.csproj", "{5A751E9C-D04D-4D79-BB0B-37120A57CF4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null_Coalesce", "Null_Coalesce\Null_Coalesce.csproj", "{19258DA8-2171-467B-8875-A6B974EA2C87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{5A751E9C-D04D-4D79-BB0B-37120A57CF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A751E9C-D04D-4D79-BB0B-37120A57CF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A751E9C-D04D-4D79-BB0B-37120A57CF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19258DA8-2171-467B-8875-A6B974EA2C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19258DA8-2171-467B-8875-A6B974EA2C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19258DA8-2171-467B-8875-A6B974EA2C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19258DA8-2171-467B-8875-A6B974EA2C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
