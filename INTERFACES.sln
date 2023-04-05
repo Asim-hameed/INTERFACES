@@ -27,13 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception", "Exception\Exce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialClassDemo", "PartialClassDemo\PartialClassDemo.csproj", "{4EB37E5D-33AF-4478-B5A8-4ED18FF69687}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesPartialClass", "RulesPartialClass\RulesPartialClass.csproj", "{2793125F-705E-480C-9C2E-F9A3BC603C08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RulesPartialClass", "RulesPartialClass\RulesPartialClass.csproj", "{2793125F-705E-480C-9C2E-F9A3BC603C08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsDemo", "ParamsDemo\ParamsDemo.csproj", "{0B08AAF9-81BD-4114-B2A1-66695987FEDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamsDemo", "ParamsDemo\ParamsDemo.csproj", "{0B08AAF9-81BD-4114-B2A1-66695987FEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAndStringBuilder", "StringAndStringBuilder\StringAndStringBuilder.csproj", "{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringAndStringBuilder", "StringAndStringBuilder\StringAndStringBuilder.csproj", "{71F2A982-BE47-4B78-8EC0-6EFA6FCDDD3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading_Demo", "MultiThreading_Demo\MultiThreading_Demo.csproj", "{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading_Demo", "MultiThreading_Demo\MultiThreading_Demo.csproj", "{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension_Demo", "Extension_Demo\Extension_Demo.csproj", "{43F84F3A-D648-4B52-B646-FF04EDA8B807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F84F3A-D648-4B52-B646-FF04EDA8B807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F84F3A-D648-4B52-B646-FF04EDA8B807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F84F3A-D648-4B52-B646-FF04EDA8B807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F84F3A-D648-4B52-B646-FF04EDA8B807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
