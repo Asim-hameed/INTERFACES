@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryInfoClass", "Direc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIleStreamDemo", "FIleStreamDemo\FIleStreamDemo.csproj", "{CF2B3C48-DAF3-4BFA-8C80-6EE541FE250A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUID", "GUID\GUID.csproj", "{ACECC810-29AB-42FB-9F94-68C7225B468C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{CF2B3C48-DAF3-4BFA-8C80-6EE541FE250A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2B3C48-DAF3-4BFA-8C80-6EE541FE250A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2B3C48-DAF3-4BFA-8C80-6EE541FE250A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACECC810-29AB-42FB-9F94-68C7225B468C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACECC810-29AB-42FB-9F94-68C7225B468C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACECC810-29AB-42FB-9F94-68C7225B468C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACECC810-29AB-42FB-9F94-68C7225B468C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
