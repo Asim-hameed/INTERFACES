@@ -65,9 +65,9 @@
 
         //........
 
-        public IAccount account { get; set; }
+        //public IAccount account { get; set; }
 
-        public void PrintDetails()
+        public void PrintAccounts( IAccount account)
         {
             account.PrintDetails();
         }
@@ -88,14 +88,25 @@
             //Account account1 = new Account(account);
             //account1.PrintAccounts();
 
-            Account account = new Account();
-            account.account = new SavingAccount();
-            account.account.PrintDetails();
 
+            //................
+
+            //Account account = new Account();
+            //account.account = new SavingAccount();
+            //account.account.PrintDetails();
+
+
+            //Account account1 = new Account();
+            //account1.account = new CurrentAccount();
+            //account1.account.PrintDetails();
+
+            //...........
+
+            Account account = new Account();
+            account.PrintAccounts(new SavingAccount());
 
             Account account1 = new Account();
-            account1.account = new CurrentAccount();
-            account1.account.PrintDetails();
+            account.PrintAccounts(new CurrentAccount());
         }
     }
 }
