@@ -35,21 +35,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringAndStringBuilder", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading_Demo", "MultiThreading_Demo\MultiThreading_Demo.csproj", "{8B8E823C-1B86-4263-B8BB-8F14BD0DBEF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension_Demo", "Extension_Demo\Extension_Demo.csproj", "{43F84F3A-D648-4B52-B646-FF04EDA8B807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension_Demo", "Extension_Demo\Extension_Demo.csproj", "{43F84F3A-D648-4B52-B646-FF04EDA8B807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandling", "FileHandling\FileHandling.csproj", "{868A1AA7-CB75-427E-A0AA-268339616E9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileHandling", "FileHandling\FileHandling.csproj", "{868A1AA7-CB75-427E-A0AA-268339616E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryInfoClass", "DirectoryInfoClass\DirectoryInfoClass.csproj", "{E88BF496-152E-4EDA-8F22-4258514D2B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryInfoClass", "DirectoryInfoClass\DirectoryInfoClass.csproj", "{E88BF496-152E-4EDA-8F22-4258514D2B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIleStreamDemo", "FIleStreamDemo\FIleStreamDemo.csproj", "{CF2B3C48-DAF3-4BFA-8C80-6EE541FE250A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIleStreamDemo", "FIleStreamDemo\FIleStreamDemo.csproj", "{CF2B3C48-DAF3-4BFA-8C80-6EE541FE250A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUID", "GUID\GUID.csproj", "{ACECC810-29AB-42FB-9F94-68C7225B468C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUID", "GUID\GUID.csproj", "{ACECC810-29AB-42FB-9F94-68C7225B468C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{01FF475F-DF81-4813-BF7F-1D86CAE472A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{01FF475F-DF81-4813-BF7F-1D86CAE472A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsVsAs", "IsVsAs\IsVsAs.csproj", "{5A751E9C-D04D-4D79-BB0B-37120A57CF4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsVsAs", "IsVsAs\IsVsAs.csproj", "{5A751E9C-D04D-4D79-BB0B-37120A57CF4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null_Coalesce", "Null_Coalesce\Null_Coalesce.csproj", "{19258DA8-2171-467B-8875-A6B974EA2C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Null_Coalesce", "Null_Coalesce\Null_Coalesce.csproj", "{19258DA8-2171-467B-8875-A6B974EA2C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{67191F8A-8DFF-410A-BD87-660D9E9A462C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{19258DA8-2171-467B-8875-A6B974EA2C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19258DA8-2171-467B-8875-A6B974EA2C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19258DA8-2171-467B-8875-A6B974EA2C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67191F8A-8DFF-410A-BD87-660D9E9A462C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67191F8A-8DFF-410A-BD87-660D9E9A462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67191F8A-8DFF-410A-BD87-660D9E9A462C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67191F8A-8DFF-410A-BD87-660D9E9A462C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
