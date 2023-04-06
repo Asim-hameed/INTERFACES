@@ -52,13 +52,22 @@
 
     class Account 
     {
-        private IAccount account;
+        //private IAccount account;
 
-        public Account(IAccount account) // It Should be parametrized
-        {
-            this.account = account;
-        }
-        public void PrintAccounts()
+        //public Account(IAccount account) // It Should be parametrized
+        //{
+        //    this.account = account;
+        //}
+        //public void PrintAccounts()
+        //{
+        //    account.PrintDetails();
+        //}
+
+        //........
+
+        public IAccount account { get; set; }
+
+        public void PrintDetails()
         {
             account.PrintDetails();
         }
@@ -74,11 +83,19 @@
             ///...............
             ///
 
-            IAccount account =new CurrentAccount(); ;
+            //IAccount account =new CurrentAccount(); ;
 
-            Account account1 = new Account(account);
-            account1.PrintAccounts();
+            //Account account1 = new Account(account);
+            //account1.PrintAccounts();
 
+            Account account = new Account();
+            account.account = new SavingAccount();
+            account.account.PrintDetails();
+
+
+            Account account1 = new Account();
+            account1.account = new CurrentAccount();
+            account1.account.PrintDetails();
         }
     }
 }
